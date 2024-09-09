@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 585px) {
+@media screen and (max-width: 500px) {
     div#conteiner{
         background-color: gray;
-        height: 260px;
+        height: 265px;
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
