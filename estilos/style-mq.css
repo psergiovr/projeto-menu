@@ -3,7 +3,7 @@
 @media screen and (max-width: 585px) {
     div#conteiner{
         background-color: gray;
-        height: 43vh;
+        height: 260px;
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
