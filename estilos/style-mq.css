@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 585px) {
+    div#conteiner{
+        background-color: gray;
+        height: 40vh;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    div#titulo{
+        padding-left: 10px;
+        text-shadow: 2px 2px 3px black;
+        color: white;
+        flex: 0;
+    }
+    div#menu{
+        width: 100vw;
+        display: flex;
+        flex-flow: column nowrap;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
