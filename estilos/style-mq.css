@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     div#conteiner{
         background-color: gray;
         height: 265px;
@@ -22,7 +22,7 @@
         margin-right: 10px;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 600px) and (max-width: 992px) {
     div#conteiner{
         background-color: gray;
         height: 15vh;
@@ -36,6 +36,6 @@
         padding-left: 10px;
         text-shadow: 2px 2px 3px black;
         color: white;
-        flex: 1 0 570px;
+        flex: 1 0 300px;
     }
 }
