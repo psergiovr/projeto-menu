@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
     div#conteiner{
         background-color: gray;
-        height: 265px;
+        height: 270px;
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
@@ -20,9 +20,10 @@
         flex-flow: column nowrap;
         margin-left: 10px;
         margin-right: 10px;
+        margin-bottom: 10px;
     }
 }
-@media screen and (min-width: 600px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     div#conteiner{
         background-color: gray;
         height: 15vh;
@@ -36,6 +37,5 @@
         padding-left: 10px;
         text-shadow: 2px 2px 3px black;
         color: white;
-        flex: 1 0 300px;
     }
 }

@@ -18,21 +18,22 @@ div#conteiner{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 div#titulo{
     padding-left: 10px;
+    border: 1px dotted black;
     text-shadow: 2px 2px 3px black;
     color: white;
-    flex: 1 0 150px;
+    flex: 0 0 200px;
 }
 
 div#menu > a{
     background-color: black;
     text-align: center;
     color: white;
-    font-size: 0.9em;
+    font-size: 1em;
     text-decoration: none;
     padding: 5px;
     margin: 3px;
@@ -40,12 +41,11 @@ div#menu > a{
 }
 div#menu{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     margin-left: 10px;
+    border: 1px dotted black;
 }
-a{
-    flex: auto;
-}
+
 div#menu > a:hover{
     background-color: white;
     color: black;
@@ -56,6 +56,7 @@ section{
     background-color: white;
     margin: 5px;
     border-radius: 5px;
+    box-shadow: 2px 2px 4px black;
 }
 section h3{
     padding: 5px;
