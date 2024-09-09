@@ -3,19 +3,20 @@
 @media screen and (max-width: 585px) {
     div#conteiner{
         background-color: gray;
-        height: 40vh;
+        height: 43vh;
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
     }
     div#titulo{
-        padding-left: 10px;
+        padding: 10px;
         text-shadow: 2px 2px 3px black;
         color: white;
+        margin-bottom: ;
         flex: 0;
     }
     div#menu{
-        width: 100vw;
+        width: 90vw;
         display: flex;
         flex-flow: column nowrap;
         margin-left: 10px;
